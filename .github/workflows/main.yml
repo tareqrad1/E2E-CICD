@@ -10,8 +10,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
             - uses: cypress-io/github-action@v5
-
-            with: 
+              with: 
                 record: true
-            env: 
+              env: 
                 CYPRESS_RECORD_KEY: 13f10427-ebf3-466b-a67e-430330db0b9d
