@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "cypress:test": "npx cypress run --record --key 13f10427-ebf3-466b-a67e-430330db0b9d"
+    "cypress:test": "npx cypress run --record --key 13f10427-ebf3-466b-a67e-430330db0b9d",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
