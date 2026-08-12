@@ -1,0 +1,59 @@
+{
+    "tasks": [
+        {
+            "isCompleted": true,
+            "_id": "6a68ec5fe11fdb82e47383f4",
+            "item": "Cypress",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-07-28T17:52:31.650Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "6a68ec6ee11fdb82e47383f7",
+            "item": "javascript",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-07-28T17:52:46.212Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "6a6e49971f691064106e5418",
+            "item": "asd",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-08-01T19:31:35.251Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "6a6e499b1f691064106e541b",
+            "item": "rrrr",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-08-01T19:31:39.465Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "6a6e49a01f691064106e541e",
+            "item": "gasppasd",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-08-01T19:31:44.305Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": true,
+            "_id": "6a6e49ae1f691064106e5422",
+            "item": "fas[[",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-08-01T19:31:58.231Z",
+            "__v": 0
+        },{
+            "isCompleted": false,
+            "_id": "6a6e49c61f691064106e5215",
+            "item": "hello from new todo test!",
+            "userID": "6a68d441e11fdb82e47383b8",
+            "createdAt": "2026-08-01T19:32:18.495Z",
+            "__v": 0
+        }
+    ]
+}
