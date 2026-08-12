@@ -27,7 +27,7 @@
 
 
 Cypress.Commands.add('login', (email, password) => {
-    cy.visit('http://localhost:3000/login');
+    cy.visit('https://qacart-todo.herokuapp.com/login');
     cy.get('[data-testid="email"]').type(email);
     cy.get('[data-testid="password"]').type(password);
     cy.get('[data-testid="submit"]').click();

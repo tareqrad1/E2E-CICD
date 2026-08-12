@@ -14,7 +14,7 @@ describe('Auth flow', () => {
     // });
     
     it('should login successfully', () => {
-        cy.visit('http://localhost:3000/login');
+        cy.visit('https://qacart-todo.herokuapp.com/login');
         cy.get('[data-testid="email"]').type('radi@gmail.com');
         cy.get('[data-testid="password"]').type('12345Tt@');
         cy.get('[data-testid="submit"]').click();
@@ -63,7 +63,7 @@ describe('Todos flow', () => {
     });
 
     it('should logout successfully', () => {
-        cy.get('.sc-bmzYkS > .MuiButtonBase-root').click();
+        cy.get('.MuiButton-label').click();
         cy.url().should('include', '/login');
     });
 });
