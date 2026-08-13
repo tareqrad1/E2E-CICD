@@ -26,7 +26,7 @@
 
 
 
-// this is a command
+// this is a command1
 Cypress.Commands.add('login', (email, password) => {
     cy.visit('https://qacart-todo.herokuapp.com/login');
     cy.get('[data-testid="email"]').type(email);
