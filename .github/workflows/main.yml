@@ -7,10 +7,14 @@ on:
 jobs:
     test:
         runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                containers: [1, 2]
         steps:
             - uses: actions/checkout@v7
             - uses: cypress-io/github-action@v5
               with: 
                 record: true
+                parallel: true
               env: 
                 CYPRESS_RECORD_KEY: 13f10427-ebf3-466b-a67e-430330db0b9d
