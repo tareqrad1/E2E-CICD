@@ -4,7 +4,7 @@ module.exports = defineConfig({
   projectId: '3gxf7p',
   allowCypressEnv: false,
   video: true,
-  videoUploadOnPasses: true,
+  videoUploadOnPasses: false, // ->>>>> معناها انه اذا كان التيست باس ما تعمل ريكورد وتصور فيديو 
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
